@@ -1,0 +1,17 @@
+.todos {
+    background: #bbbbbb;
+    margin: 0 15%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    height: 60vh;
+    color: #d5d8d3bd;
+    overflow: hidden;
+}
+
+.todos i {
+    cursor: pointer;
+    font-size: 26px;
+}

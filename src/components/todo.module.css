@@ -1,0 +1,21 @@
+.todo {
+    display: flex;
+    justify-content: space-between;
+    background: #191825;
+    align-items: center;
+    padding: 0 5%;
+    margin: 0.5rem;
+    border-radius: 0.6rem;
+    -webkit-border-radius: 0.6rem;
+    -moz-border-radius: 0.6rem;
+    -ms-border-radius: 0.6rem;
+    -o-border-radius: 0.6rem;
+}
+
+.todo:hover {
+    background: #181823e8;
+}
+
+.todo h4 {
+    opacity: 0.5;
+}
