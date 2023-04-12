@@ -5,7 +5,12 @@ import style from './todo.module.css'
 const Todo = props => {
 
     // eslint-disable-next-line
-    const { name, id, profession } = props.todo
+    const { name, profession } = props.todo
+    const {  id } = props
+
+    const handleClick = (id) => {
+        props.onRemoveTodo(id)
+    }
 
     return (
         <article className={style.todo}>
@@ -14,7 +19,7 @@ const Todo = props => {
 
                 <h4>{profession}</h4>
             </div>
-            <div>
+            <div onClick={() => {handleClick(id)}}>
                 <i className='fa fa-trash'></i>
             </div>
         </article>

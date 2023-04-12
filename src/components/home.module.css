@@ -5,7 +5,8 @@
 }
 
 .wrapper {
-    background: #FEFBE9;
+    /* background: #FEFBE9; */
+    background: #ECF2FF;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -13,9 +14,12 @@
 }
 
 h1 {
-    font-weight: 500;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 1.71px;
 }
 
 h2, h4 {
     font-weight: 400;
+    margin: 16px 0;
 }

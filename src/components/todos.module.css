@@ -1,12 +1,13 @@
 .todos {
-    background: #bbbbbb;
+    background: #86A3B8;
     margin: 0 15%;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-    height: 60vh;
+    padding: 1px 0;
+    height: 55vh;
     color: #d5d8d3bd;
     overflow: hidden;
 }
